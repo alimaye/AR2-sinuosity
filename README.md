@@ -1,11 +1,12 @@
-# AR2-sinuosityJuly 26, 2021
+# AR2-sinuosity
+July 26, 2021
 Ajay B. Limaye (ajay@virginia.edu)
 University of Virginia
 ajay@virginia.edu
 
 This repository contains files for modeling and calculating fit parameters for river centerlines using the second-order autogressive model described by Ferguson (1976) and reproduced by Limaye et al. (2021). All codes are written in MATLAB and have been tested for version R2020a. Ajay B. Limaye authored all code, except where indicated. This software is provided as-is, with no performance guarantees, and is subject to the included license file. Please submit any feedback, including issues running the code, via email to ajay@virginia.edu. If any part of this code is used in preparing a publication, please cite Limaye et al. (2021) using the reference below.
 
-The folder "AR2 model" contains the following codes that generate modeled centerlines:
+The folder "AR2model" contains the following codes that generate modeled centerlines:
 
 -wrapper_modelCenterlineAR2.m: A wrapper script to define parameters and execute centerline generation using modelCenterlineAR2.m.
 
@@ -19,7 +20,7 @@ The folder "AR2 model" contains the following codes that generate modeled center
 
 -windowedSinuosity.m: Calculates channel sinuosity using a moving average. 
 
-The folder "AR2 fit" contains the following files that calculate fit parameters for the autoregressive statistical model: 
+The folder "AR2fit" contains the following files that calculate fit parameters for the autoregressive statistical model: 
 
 -demoCenterline.mat: an example data file a channel centerline coordinates (x,y), with the centerline sampled at unit spacing.
 
